@@ -10,8 +10,8 @@
     border-color: black;
     border-style: solid;
     border-width: 1px;
-    width: 50px;
-    height: 50px;
+    width: 25px;
+    height: 25px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -19,5 +19,43 @@
 }
 
 #icons {
-    margin: 0 0 0 auto;
+    justify-content: baseline;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.mainContainer {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background: gray;
+    width: 50%;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+
+    h1 {
+        margin: 10px auto 10px 10px;
+    }
+}
+
+.input {
+    width: 90%;
+    margin: 24px 0 0 60px;
+
+}
+
+.addBtn {
+    margin: 0 44px 0 auto;
+
+}
+
+.input-field {
+    width: 100%;
 }
